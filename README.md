@@ -123,7 +123,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-npm install
+`npm install`
 
 ### Setup
 
@@ -137,13 +137,13 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-npm install
+`npm install`
 
 ### Usage
 
 To run the project, execute the following command:
 
-npm start
+`npm start`
 
 
 ### Run tests
