@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Math Magician] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
@@ -97,7 +97,7 @@ After you're finished please remove all the comments and instructions!
 > Describe between 1-3 key features of the application.
 
 - **[performs basic math operations]**
-- **[display_math_quotes]**
+- **[display math quotes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,74 +123,41 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
-npm install node
-```
- -->
+npm install
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```
   cd my-folder
   git clone https://github.com/kennankole/math-magic.git
-```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```
 npm install
-```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```
 npm start
-```
---->
+
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
+`npm test`
 
-```
-npm test
-```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```
-github pages
-```
- -->
+`github pages`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
