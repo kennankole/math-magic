@@ -9,7 +9,7 @@ const MyCalculator = () => {
   const dataObj = { total, operation, next };
 
   const handleChange = (event) => {
-    const buttonName = event.targer.innerHTML;
+    const buttonName = event.target.innerHTML;
     const results = calculate(dataObj, buttonName);
     const { total, operation, next } = results;
     setOperation(operation);
