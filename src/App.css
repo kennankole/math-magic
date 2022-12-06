@@ -3,13 +3,6 @@
   padding: 0;
 }
 
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 table {
   margin: 0;
   width: 75vw;
@@ -25,6 +18,10 @@ td {
   text-align: center;
 }
 
+td:hover {
+  background-color: rgb(111, 109, 106);
+}
+
 .inputs {
   background: grey;
   text-align: end;
@@ -34,4 +31,67 @@ td {
 
 .orange {
   background-color: rgb(222, 79, 27);
+}
+
+.calculatorSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+#########################################################
+#+++++++++++++++++++NAVIGATION MENU+++++++++++++++++++++#
+#########################################################
+*/
+.nav-bar {
+  flex-direction: column;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 5%;
+}
+
+.nav-title {
+  flex: 1;
+  font-size: 32px;
+  width: 50%;
+  padding: 10px;
+}
+
+.nav-ul {
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(75, 153, 185);
+  font-weight: 500;
+}
+
+/*
+#########################################################
+#+++++++++++++++++++++HOME SECTION++++++++++++++++++++++#
+#########################################################
+*/
+main,
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 10%;
+}
+
+.text-description {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.author {
+  font-size: 25px;
+}
+
+.home-text {
+  padding: 0 6%;
+  font-size: 25px;
 }
