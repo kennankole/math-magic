@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check if Home component renders correctly 1`] = `
+Array [
+  <h1
+    className="home-text"
+  >
+    Welcome to our page
+  </h1>,
+  <main>
+    <p
+      className="text-description"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </p>
+  </main>,
+]
+`;
+
+exports[`Check if Quote component renders correctly 1`] = `
+<div
+  className="quote"
+>
+  <p
+    className="text-description"
+  >
+    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form accompanied by English versions from the 1914 translation
+    <strong
+      className="author"
+    >
+       by H. Rackham.
+    </strong>
+  </p>
+</div>
+`;
+
+exports[`Check if calculator component renders correctly 1`] = `
+Array [
+  <h1
+    className="home-text"
+  >
+    Let us do some maths
+  </h1>,
+  <section
+    className="calculatorSection"
+  >
+    <div
+      className="container"
+    >
+      <table>
+        <thead>
+          <tr>
+            <td
+              className="inputs"
+              colSpan="4"
+              onClick={[Function]}
+              role="presentation"
+            />
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              AC
+            </td>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              +
+            </td>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              %
+            </td>
+            <td
+              className="orange"
+            >
+              ÷
+            </td>
+          </tr>
+          <tr>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              7
+            </td>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              8
+            </td>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              9
+            </td>
+            <td
+              className="orange"
+              onClick={[Function]}
+              role="presentation"
+            >
+              x
+            </td>
+          </tr>
+          <tr>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              4
+            </td>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              5
+            </td>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              6
+            </td>
+            <td
+              className="orange"
+              onClick={[Function]}
+              role="presentation"
+            >
+              -
+            </td>
+          </tr>
+          <tr>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              1
+            </td>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              2
+            </td>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              3
+            </td>
+            <td
+              className="orange"
+              onClick={[Function]}
+              role="presentation"
+            >
+              +
+            </td>
+          </tr>
+          <tr
+            className="last"
+          >
+            <td
+              colSpan="2"
+              onClick={[Function]}
+              role="presentation"
+            >
+              0
+            </td>
+            <td
+              onClick={[Function]}
+              role="presentation"
+            >
+              .
+            </td>
+            <td
+              className="orange"
+              onClick={[Function]}
+              role="none"
+            >
+              =
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>,
+]
+`;
+
+exports[`Check if navigation menu renders correctly 1`] = `
+<section>
+  <div>
+    <nav
+      className="nav-bar"
+    >
+      <ul
+        className="nav-bar-container"
+      >
+        <h1
+          className="nav-title"
+        >
+          Math Magician
+        </h1>
+        <a
+          className="nav-ul"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+        |
+        <a
+          className="nav-ul"
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+        |
+        <a
+          className="nav-ul"
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </ul>
+    </nav>
+  </div>
+  <h1
+    className="home-text"
+  >
+    Welcome to our page
+  </h1>
+  <main>
+    <p
+      className="text-description"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </p>
+  </main>
+</section>
+`;
